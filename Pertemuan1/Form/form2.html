@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Text:</td>
+            <td style="padding: 1px;"> <input type="text"> </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td style="padding: 1px;"> <input type="password"> </td>
+        </tr>
+        <tr>
+            <th colspan="2"> Radio 1<input type="radio" name="radio"> Radio 2<input type="radio" name="radio"></td>
+        </tr>
+        <tr>
+            <th colspan="2"> Checkbox 1<input type="checkbox" name="check1"> Checkbox 2<input type="checkbox" name="check2"></td>
+        </tr>
+        <tr>
+            <td>
+                Combo box:
+            </td>
+            <td>
+                <select name="box" id="box">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Textarea:
+            </td>
+            <td>
+                <textarea name="textarea" id="" cols="20" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <input type="button" value="Button">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
